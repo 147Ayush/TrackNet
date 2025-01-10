@@ -1,5 +1,5 @@
 
-torch==1.13.1+cpu
-torchvision==0.14.1+cpu
-opencv-python==4.6.0.66
-numpy==1.21.6
+torch==1.5.1+cpu
+torchvision==0.20.1+cpu
+opencv-python==4.8.1.78
+numpy==1.26.4

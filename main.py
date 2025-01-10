@@ -36,7 +36,7 @@ def detection_thread(detector, output_dir):
     global detections
     while True:
         if not frame_queue.empty():
-            frame, frame_index = frame_queue.get()  # Get the next frame from the queue
+            frame, frame_index = frame_queue.get()  
 
 
             detected_objects = detector.detect_objects(frame)
@@ -74,7 +74,7 @@ def detection_thread(detector, output_dir):
                 break
 
 def main():
-    video_path = r"D:\works\Git_hub\Assignment\data\_video.mp4"  # Ensure the path is correct
+    video_path = r"D:\works\Git_hub\TrackNet\data\_video.mp4"  
     output_dir = "data/output/"
     detector = ObjectDetector()
 
